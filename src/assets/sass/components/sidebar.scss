@@ -17,6 +17,11 @@ $dense-width: $sidebar-control-width + ($sidebar-dense-padding * 2) + $shift;
   z-index: 10;
   background-color: $color-background;
 }
+.icon-img{
+  width: 110%;
+  height: 110%;
+  border-radius: 50%;
+}
 
 .c-sidebar__backdrop {
   position: absolute;
@@ -75,6 +80,8 @@ $dense-width: $sidebar-control-width + ($sidebar-dense-padding * 2) + $shift;
 
 .c-sidebar__title {
   font-size: 24px;
+  font-weight: bold ;
+  font-style: italic;
   color: $color-dark;
   line-height: $sidebar-logo-height;
   margin: 0 0 spacing("normal");
